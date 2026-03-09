@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Developer Dashboard</title>
+        <!-- CSS -->
+         <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <!-- App Container -->
+         <div id="app">
+            
+            <!-- Header -->
+            <header>
+                <h1>Personal Developer Dashboard</h1>
+            </header>
+            
+            <!-- Main Dashboard -->
+             <main>
+                
+                <!-- Tasks Section -->
+                 <section id ="tasks">
+                    <h2>Tasks</h2>
+                    <input type="text" id="taskInput" placeholder="Add a new task...">
+                    <button id="addTaskBtn">Add Task</button>
+                    <ul id="taskList"></ul>
+                 </section>
+                 
+                 <!-- Goals Section -->
+                  <section id="goals">
+                    <h2>Goals</h2>
+                    <ul id="goalList"></ul>
+                  </section>
+                  
+                  <!-- Notes Section -->
+                   <section id="notes">
+                    <h2>Notes</h2>
+                    <textarea id="notesArea" placeholder="Write your notes here..."></textarea>
+                   </section>
+                   
+                   <!-- Weather Section -->
+                    <section id="weather">
+                        <h2>Weather</h2>
+                        <p id="weatherInfo">Loading weather...</p>
+                    </section>
+             </main>
+         </div>
+            <!-- JavaScript -->
+            <script src="app.js"></script>
+    </body>
+</html>
